@@ -5,10 +5,33 @@
 .card {
     padding: 20px;
     margin: 10px;
-    background-color: #67D0F4;
+    background-color: white;
 }
 
 body {
     background-color: lightblue;
 }
 
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px lightblue;
+  border-bottom: 16px lightblue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.afterLoad {
+    display: none;
+}
+
+.toggleOff {
+    display: none;
+}
