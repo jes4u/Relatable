@@ -1,5 +1,5 @@
 var letsgetthisbread = async () => {
-    const url = "http:/127.0.0.1:5000/query";
+    const url = "http:/206.87.108.98:5000/query";
     let request = new Request(url, {
         method: "GET",
         headers: new Headers()
