@@ -7,11 +7,6 @@ chrome.tabs.query({'active': true, 'windowId': chrome.windows.WINDOW_ID_CURRENT}
 );
 
 
-function myFunction(tablink) {
-  // do stuff here
-  console.log(tablink);
-}
-
 var currentBody = document.getElementsByTagName("BODY")[0];
 console.log(currentBody);
 
@@ -31,6 +26,7 @@ var letsgetthisbread = async (url2) => {
                 cards[i].innerHTML = "<a href="+res.pages[i]+" target='_blank'>" + res.titles[i] + "</a>";
             }
             var afterLoad = document.getElementsByClassName("afterLoad");
+            console.log(afterLoad)
             for ( var i = 0 ; i < afterLoad.length ; i++) {
                 afterLoad[i].classList.remove("afterLoad");
             }
@@ -38,6 +34,19 @@ var letsgetthisbread = async (url2) => {
             for ( var i = 0 ; i < beforeLoad.length ; i++) {
                 beforeLoad[i].classList.add("toggleOff");
             }
+
+            var keywords = res.keywords;
+            var keywordsDiv = document.getElementById("keywords")
+//            var par = document.createElement("h5");
+//            par.innerText = "Keywords"
+            for ( var i = 0 ; i < keywords.length ; i++) {
+                var par = document.createElement("p");
+                par.innerText = keywords[i];
+                keywordsDiv.appendChild(par);
+            }
+
+            var keywordsList = document.getElementById("keywords");
+            keywordsList.classList.remove("afterLoad")
         })
         .catch(err => console.log(err));
 };
