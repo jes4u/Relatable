@@ -1,19 +1,12 @@
-var letsgetthisbread = function() {
-    return new Promise(function(resolve, reject) {
-        var post = new XMLHttpRequest();
-        
-        //change this
-        var url_get = "https://206.87.108.98:5000/query/?url=https://hackernoon.com/top-python-web-development-frameworks-to-learn-in-2019-21c646a09a9a";
-        
-        post.open("GET", url_get, true);
-        document.getElementById('test').innerHTML = document.body.innerHTML;
-        //possibly change this
-        post.setRequestHeader('Content-Type', 'application/json');
-        //post.send(document.body.innerHTML);
-        post.send();
-        if (post.status == 200) {
-            
-            var json = response.body;
+var letsgetthisbread = async () => {
+    const url = "http:/127.0.0.1:5000/query";
+    let request = new Request(url, {
+        method: "GET",
+        headers: new Headers()
+    });
+    this.callBackend(request)
+        .then(res => {
+            var json = res.body;
             document.getElementById('test').innerHTML = json;
             var links_output = document.getElementById("links");
             links_output.innerHTML = '';
@@ -23,13 +16,19 @@ var letsgetthisbread = function() {
                     links_output.innerHTML = links_output.innerHTML + '<a href="' + '">' + json[key][links] + '</a></div><br>';
                 }
             }
-            resolve();
-        } else {
-            document.getElementById('test').innerHTML = 'poopy';
-            reject();
-      }
-    });
-  }
+        })
+        .catch(err => console.log(err));
+};
+
+callBackend = async request => {
+    const response = await fetch(request);
+    const body = await response.json();
+    if (Response.status !== 200) {
+        throw Error(body.message);
+    }
+    return body;
+}
+
 
 window.onload = function() {
     letsgetthisbread();
