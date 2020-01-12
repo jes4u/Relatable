@@ -7,7 +7,7 @@
 		"scripts": ["main.js"],
 		"persistent": false
 	},
-	"permissions": ["declarativeContent"],
+	"permissions": ["declarativeContent", "activeTab", "tabs"],
 	"page_action": {
 		"default_popup": "side_bar.html",
 		"default_icon": {

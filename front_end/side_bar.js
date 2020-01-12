@@ -1,15 +1,27 @@
+// basically still need to figure out how to store current url.
+// ---------
+chrome.tabs.getSelected(null, function(tab) {
+    myFunction(tab.url);
+});
+
+function myFunction(tablink) {
+  // do stuff here
+  console.log(tablink);
+}
+// ---------
+
 var letsgetthisbread = async () => {
-    const url = "http:/206.87.108.98:5000/query/?url=" + window.location.href;
+    const url = "http:/206.87.108.98:5000/query/?url=https://hackernoon.com/top-python-web-development-frameworks-to-learn-in-2019-21c646a09a9a";
     let request = new Request(url, {
         method: "GET",
         headers: new Headers()
     });
     this.callBackend(request)
         .then(res => {
-            document.getElementById("test").innerHTML = res;
+            console.log(res)
             var cards = document.getElementsByClassName("card-body");
             for ( var i = 0 ; i < cards.length ; i++) {
-                cards[i].child().innerHTML = res.pages[i];
+                cards[i].innerHTML = "<a href="+res.pages[i]+" target='_blank'>" + res.titles[i] + "</a>";
             }
 //            var json = res.body;
 //            document.getElementById('test').innerHTML = json;
@@ -28,7 +40,8 @@ var letsgetthisbread = async () => {
 callBackend = async request => {
     const response = await fetch(request);
     const body = await response.json();
-    if (Response.status !== 200) {
+    if (response.status !== 200) {
+        console.log(response.status)
         throw Error(body.message);
     }
     return body;
