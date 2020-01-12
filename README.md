@@ -10,3 +10,6 @@ You simply go to an article that you are interested in reading, and when you sim
 
 ### Use cases:
 + Researching: Any general research. Relatable can save you a lot of time by removing the need to navigate through multiple tabs searching for content that relates to an article of interest. With the Relatable extension for Google Chrome, you can see related article links in the same tab as your article!
+
+### How to install
+Navigate to and download front_end.crx
