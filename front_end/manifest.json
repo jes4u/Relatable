@@ -1,10 +1,10 @@
 {
 	"name": "Article Recommender",
 	"version": "0.1",
-	"description": "Created by Team Ed - Jesse, Kevin, Mo",
+	"description": "Created by Team Ed - Dominic, Jesse, Kevin, Mo",
 	"manifest_version": 2, 
 	"background": {
-		"scripts": ["main.js"], 
+		"scripts": ["background.js"],
 		"persistent": false
 	},
 	"permissions": ["declarativeContent"],
