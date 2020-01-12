@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be1643e3-5321-4703-86c6-99e0b4519de8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front_end/images/project-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/images/192.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/side_bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/side_bar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/side_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/side_bar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/side_bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/side_bar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front_end/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,8 +39,11 @@
       <file leaf-file-name="side_bar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/side_bar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+            <state relative-caret-position="101">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <marker date="1578860923239" expanded="true" signature="1555:1647" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +60,8 @@
       <file leaf-file-name="side_bar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/side_bar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="371">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="side_bar.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="side_bar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/side_bar.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -92,8 +88,8 @@
     <findStrings>
       <find>hello</find>
       <find>&lt;url&gt;</find>
-      <find>afterLoad</find>
       <find>poop</find>
+      <find>afterLoad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,10 +103,10 @@
         <option value="$PROJECT_DIR$/front_end/main.js" />
         <option value="$PROJECT_DIR$/front_end/background.js" />
         <option value="$PROJECT_DIR$/front_end/contentscript.js" />
-        <option value="$PROJECT_DIR$/front_end/manifest.json" />
-        <option value="$PROJECT_DIR$/front_end/side_bar.html" />
         <option value="$PROJECT_DIR$/front_end/side_bar.css" />
         <option value="$PROJECT_DIR$/front_end/side_bar.js" />
+        <option value="$PROJECT_DIR$/front_end/side_bar.html" />
+        <option value="$PROJECT_DIR$/front_end/manifest.json" />
       </list>
     </option>
   </component>
@@ -233,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -282,6 +278,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1578860923239" expanded="true" signature="1555:1647" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -358,13 +357,6 @@
     <entry file="file://$PROJECT_DIR$/front_end/images/project-logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front_end/contentscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -372,10 +364,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front_end/side_bar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end/side_bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <marker date="1578860923239" expanded="true" signature="1555:1647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front_end/side_bar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="371">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -386,17 +395,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/side_bar.js">
+    <entry file="file://$PROJECT_DIR$/front_end/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/side_bar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
