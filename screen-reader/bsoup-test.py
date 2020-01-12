@@ -44,7 +44,7 @@ def getTextRank(bodyText):
 
     uniqueTerms = set(textRanked)
 
-    return ' '.join(list(uniqueTerms)[:10])
+    return list(uniqueTerms)[:10]
 
 
 # google search
@@ -69,9 +69,15 @@ def googling(term):
 url = 'https://towardsdatascience.com/binary-tree-the-diameter-af2e9d725abe'
 bodyText = getBodyText(url)
 
-query = getTextRank(bodyText)
-print(query)
-googleSearched = googling(query)
+queryList = getTextRank(bodyText)
+# print(queryList)
+googleSearched = googling(' '.join(queryList))
 
-for i in range(len(googleSearched)):
-    print(i, googleSearched[i])
+
+
+resultDict = {}
+resultDict["keywords"] = queryList
+resultDict["pages"] = googleSearched
+
+
+# print(resultDict)
