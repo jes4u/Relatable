@@ -21,6 +21,7 @@ body {
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+  margin: 20px;
 }
 
 @keyframes spin {
@@ -34,4 +35,10 @@ body {
 
 .toggleOff {
     display: none;
+}
+
+#keywords {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
 }

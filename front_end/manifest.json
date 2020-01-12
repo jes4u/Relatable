@@ -11,12 +11,12 @@
 	"page_action": {
 		"default_popup": "side_bar.html",
 		"default_icon": {
-			"16": "images/16.png",
-			"192": "images/192.png"
+			"16": "images/project-logo.png",
+			"192": "images/project-logo.png"
 		}
 	},
 	"icons": { 
-		"16": "images/16.png", 
-		"192": "images/192.png" 
+		"16": "images/project-logo.png",
+		"192": "images/project-logo.png"
 	}
 }
