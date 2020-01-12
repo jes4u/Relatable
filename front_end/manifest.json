@@ -1,13 +1,13 @@
 {
 	"name": "Article Recommender",
 	"version": "0.1",
-	"description": "Created by Team Ed - Jesse, Kevin, Mo",
+	"description": "Created by Team Ed - Dominic, Jesse, Kevin, Mo",
 	"manifest_version": 2, 
 	"background": {
-		"scripts": ["main.js"], 
+		"scripts": ["main.js"],
 		"persistent": false
 	},
-	"permissions": ["declarativeContent"],
+	"permissions": ["declarativeContent", "activeTab", "tabs"],
 	"page_action": {
 		"default_popup": "side_bar.html",
 		"default_icon": {
