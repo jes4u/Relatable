@@ -4,7 +4,7 @@
 	"description": "Created by Team Ed - Dominic, Jesse, Kevin, Mo",
 	"manifest_version": 2, 
 	"background": {
-		"scripts": ["background.js"],
+		"scripts": ["main.js"],
 		"persistent": false
 	},
 	"permissions": ["declarativeContent"],
