@@ -1,0 +1,22 @@
+{
+	"name": "Article Recommender",
+	"version": "0.1",
+	"description": "Created by Team Ed - Jesse, Kevin, Mo",
+	"manifest_version": 2, 
+	"background": {
+		"scripts": ["main.js"], 
+		"persistent": false
+	},
+	"permissions": ["declarativeContent"],
+	"page_action": {
+		"default_popup": "side_bar.html",
+		"default_icon": {
+			"16": "images/16.png",
+			"192": "images/192.png"
+		}
+	},
+	"icons": { 
+		"16": "images/16.png", 
+		"192": "images/192.png" 
+	}
+}
